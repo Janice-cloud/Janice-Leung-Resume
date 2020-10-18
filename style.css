@@ -24,6 +24,7 @@ body{
 .semi_bold{
     font-weight: 500;
     font-size: 16px;
+    margin-bottom: 5px;
 }
 
 .resume{
@@ -34,7 +35,7 @@ body{
 }
 
 .resume .resume_left{
-    width: 280px;
+    width: 310px;
     background: #ff968a;
 }
 
@@ -50,7 +51,7 @@ body{
 }
 
 .resume .resume_left .resume_content{
-    padding: 0 25px;
+    padding: 0 23px;
 }
 
 .resume .title{
@@ -183,8 +184,9 @@ body{
     border: 2px solid #ff968a
 } 
 
+
 .resume .resume_right .resume_education ul li:after,
-.resume .resume_right .resume_experience ul li:after{
+.timeline ul:after{
     content: "";
     position: absolute;
     top: 14px;
@@ -193,3 +195,16 @@ body{
     height: 115px;
     background: #ff968a;
 }
+
+.resume .resume_right .resume_experience ul .list li:before,
+.list li:before{
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: -20px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: 2px solid #ff968a
+} 
+
