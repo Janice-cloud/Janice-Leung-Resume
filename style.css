@@ -105,12 +105,12 @@ body{
     transform: translate(-50%,-50%);
 }
 
-a{
+.resume .resume_left a{
     color: #f5f5f5;
     text-decoration: none;
 }
 
-a:hover{
+.resume .resume_left a:hover{
     color: #f5f5f5;
     text-decoration: underline;
 }
@@ -156,6 +156,17 @@ a:hover{
 
 .resume .resume_right .bold{
     color: #ff968a;
+}
+
+.resume .resume_right a{
+    color: #555555;
+    margin-right: 3px;
+    text-decoration: none;
+}
+
+.resume .resume_right a:hover{
+    color: #555555;
+    text-decoration: underline;
 }
 
 .resume .resume_right .resume_projects ul,
