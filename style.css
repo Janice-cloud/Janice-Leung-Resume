@@ -62,6 +62,10 @@ body{
     color: #fff;
 }
 
+.resume .resume_left .semi_bold{
+    color: #fff;
+}
+
 .resume .resume_left .regular{
     color: #f5f5f5;
 }
@@ -103,9 +107,18 @@ body{
     transform: translate(-50%,-50%);
 }
 
+a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f5f5f5;
+    text-decoration: underline;
+}
+
 .resume .resume_left ul li .data{
     color: #f5f5f5;
-
 }
 
 .resume .resume_left .resume_skills ul li{
